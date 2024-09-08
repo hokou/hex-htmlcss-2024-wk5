@@ -3,3 +3,16 @@
   margin-left: auto;
 }
 
+.list-group-item.active {
+  background-color: $gray-100;
+  border-color: $gray-400;
+  color: $gray-900;
+}
+
+.assignment-list {
+  width: 34%;
+}
+
+.assignment-detail {
+  width: 66%;
+}
