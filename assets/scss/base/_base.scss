@@ -7,6 +7,11 @@ a {
   text-decoration: none;
   color: inherit;
   display: inline-block;
+  transition: opacity 0.5s;
+}
+
+a:hover {
+  opacity: 0.7;
 }
 
 code {
@@ -60,15 +65,8 @@ p {
   font-feature-settings: 'liga';
 }
 
-a {
-  display: inline-block;
-  text-decoration: none;
-  color: inherit;
-  transition: opacity 0.5s;
-}
-
-a:hover {
-  opacity: 0.7;
+.fs-12 {
+  font-size: 12px;
 }
 
 .px-32 {
