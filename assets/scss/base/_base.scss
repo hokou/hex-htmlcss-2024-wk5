@@ -60,6 +60,17 @@ p {
   font-feature-settings: 'liga';
 }
 
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  transition: opacity 0.5s;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
 .px-32 {
   padding-left: 32px !important;
   padding-right: 32px !important;
